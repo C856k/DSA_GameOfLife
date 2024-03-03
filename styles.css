@@ -1,0 +1,22 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cols), 20px);
+    grid-template-rows: repeat(var(--rows), 20px);
+    gap: 1px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+}
+
+.cell.alive {
+    background-color: black;
+}
+
+.controls {
+    margin-bottom: 10px;
+}
